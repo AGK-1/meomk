@@ -28,7 +28,7 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = ""; // Swagger kök URL-də işləsin ("/swagger" yazmadan açmaq üçün)
 });
 
-// app.UseHttpsRedirection(); // HTTPS lazım olsa aktiv edin
+//app.UseHttpsRedirection(); // HTTPS lazım olsa aktiv edin
 
 app.UseRouting();
 app.UseAuthorization();

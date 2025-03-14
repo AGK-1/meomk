@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\sqli-samko.csproj": {}
+    "C:\\Users\\Android_999\\Desktop\\c-sharp\\meomk\\sqli-samko\\sqli-samko.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\sqli-samko.csproj": {
+    "C:\\Users\\Android_999\\Desktop\\c-sharp\\meomk\\sqli-samko\\sqli-samko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\sqli-samko.csproj",
+        "projectUniqueName": "C:\\Users\\Android_999\\Desktop\\c-sharp\\meomk\\sqli-samko\\sqli-samko.csproj",
         "projectName": "sqli-samko",
-        "projectPath": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\sqli-samko.csproj",
+        "projectPath": "C:\\Users\\Android_999\\Desktop\\c-sharp\\meomk\\sqli-samko\\sqli-samko.csproj",
         "packagesPath": "C:\\Users\\Android_999\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\obj\\",
+        "outputPath": "C:\\Users\\Android_999\\Desktop\\c-sharp\\meomk\\sqli-samko\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

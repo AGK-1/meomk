@@ -34,6 +34,21 @@ namespace sqli_samko.Controllers
 
         }
 
+        [HttpPut]
+        public async Task<ActionResult<Cars>> UpdateCar(int id, Cars updated)
+        {
+            var exiciting =  await _context.Carss.FindAsync(id);
+            if (exiciting != null)
+            {
+                return NotFound("Nothing found");
+            }
+
+            exiciting.Name = updated.Name;
+            exiciting.Brand = updated.Brand;
+            await _context.SaveChangesAsync();
+            return Ok(exiciting);
+        }
+
     }
 
 

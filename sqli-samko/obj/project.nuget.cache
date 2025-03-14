@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+rv5IxUX8dc=",
+  "dgSpecHash": "yNA9gBTHDKY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\sqli-samko.csproj",
+  "projectFilePath": "C:\\Users\\Android_999\\Desktop\\c-sharp\\meomk\\sqli-samko\\sqli-samko.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Android_999\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Android_999\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.19\\microsoft.aspnetcore.openapi.7.0.19.nupkg.sha512",

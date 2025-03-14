@@ -44,5 +44,36 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "sqli_samko.Controllers.ContraController",
+    "Method": "UpdateCar",
+    "RelativePath": "api/Contra",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updated",
+        "Type": "sqli_samko.Models.Cars",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sqli_samko.Models.Cars",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
