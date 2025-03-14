@@ -6,22 +6,21 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Скопируйте все файлы проекта (включая .csproj)
+# Копируем весь проект
 COPY . .
 
-# Найдите файл .csproj и восстановите зависимости
-# Замените "*.csproj" на точное имя вашего проектного файла, если вы его знаете
-RUN dotnet restore "*.csproj"
+# Находим файл проекта и используем его для восстановления
+RUN find . -name "*.csproj" | xargs -I {} dotnet restore {}
 
-# Соберите приложение
-RUN dotnet build "*.csproj" -c Release -o /app/build
+# Находим и собираем проект
+RUN find . -name "*.csproj" | xargs -I {} dotnet build {} -c Release -o /app/build
 
 FROM build AS publish
-# Опубликуйте приложение
-RUN dotnet publish "*.csproj" -c Release -o /app/publish
+# Находим и публикуем проект
+RUN find . -name "*.csproj" | xargs -I {} dotnet publish {} -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-# Замените "sqli-samko.dll" на реальное имя выходного файла DLL вашего проекта
-ENTRYPOINT ["dotnet", "sqli-samko.dll"]
+# Определяем DLL на основе сборки
+ENTRYPOINT ["sh", "-c", "dotnet $(find . -name *.dll | grep -v 'runtimeconfig\|refs' | head -1)"]
