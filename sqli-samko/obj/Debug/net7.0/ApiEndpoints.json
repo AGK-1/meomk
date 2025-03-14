@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "sqli_samko.Controllers.ContraController",
+    "Method": "Getcars",
+    "RelativePath": "api/Contra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[sqli_samko.Models.Cars, sqli-samko, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sqli_samko.Controllers.ContraController",
+    "Method": "PotsCar",
+    "RelativePath": "api/Contra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newCars",
+        "Type": "sqli_samko.Models.Cars",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sqli_samko.Models.Cars",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

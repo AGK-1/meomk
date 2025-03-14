@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B428AE3-A8E8-4AD7-B579-823428C1FEB8}|sqli-samko\\sqli-samko.csproj|c:\\users\\android_999\\desktop\\c-sharp\\sqli-samko\\sqli-samko\\controllers\\contracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B428AE3-A8E8-4AD7-B579-823428C1FEB8}|sqli-samko\\sqli-samko.csproj|solutionrelative:sqli-samko\\controllers\\contracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B428AE3-A8E8-4AD7-B579-823428C1FEB8}|sqli-samko\\sqli-samko.csproj|c:\\users\\android_999\\desktop\\c-sharp\\sqli-samko\\sqli-samko\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B428AE3-A8E8-4AD7-B579-823428C1FEB8}|sqli-samko\\sqli-samko.csproj|solutionrelative:sqli-samko\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B428AE3-A8E8-4AD7-B579-823428C1FEB8}|sqli-samko\\sqli-samko.csproj|c:\\users\\android_999\\desktop\\c-sharp\\sqli-samko\\sqli-samko\\appdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B428AE3-A8E8-4AD7-B579-823428C1FEB8}|sqli-samko\\sqli-samko.csproj|solutionrelative:sqli-samko\\appdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B428AE3-A8E8-4AD7-B579-823428C1FEB8}|sqli-samko\\sqli-samko.csproj|c:\\users\\android_999\\desktop\\c-sharp\\sqli-samko\\sqli-samko\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B428AE3-A8E8-4AD7-B579-823428C1FEB8}|sqli-samko\\sqli-samko.csproj|solutionrelative:sqli-samko\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\Program.cs",
+              "RelativeDocumentMoniker": "sqli-samko\\Program.cs",
+              "ToolTip": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\Program.cs",
+              "RelativeToolTip": "sqli-samko\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:27:55.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDb.cs",
+              "DocumentMoniker": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\AppDb.cs",
+              "RelativeDocumentMoniker": "sqli-samko\\AppDb.cs",
+              "ToolTip": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\AppDb.cs",
+              "RelativeToolTip": "sqli-samko\\AppDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:39:02.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cars.cs",
+              "DocumentMoniker": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\Models\\Cars.cs",
+              "RelativeDocumentMoniker": "sqli-samko\\Models\\Cars.cs",
+              "ToolTip": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\Models\\Cars.cs",
+              "RelativeToolTip": "sqli-samko\\Models\\Cars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:29:40.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContraController.cs",
+              "DocumentMoniker": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\Controllers\\ContraController.cs",
+              "RelativeDocumentMoniker": "sqli-samko\\Controllers\\ContraController.cs",
+              "ToolTip": "C:\\Users\\Android_999\\Desktop\\c-sharp\\sqli-samko\\sqli-samko\\Controllers\\ContraController.cs",
+              "RelativeToolTip": "sqli-samko\\Controllers\\ContraController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:28:47.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

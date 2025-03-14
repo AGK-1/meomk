@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4HfKWj4JW3nIZNegAAJ6DjqhBY05FUEUkO9LnyN1miE=",
+  "Source": "sqli-samko",
+  "BasePath": "_content/sqli-samko",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
