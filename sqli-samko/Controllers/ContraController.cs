@@ -54,7 +54,8 @@ namespace sqli_samko.Controllers
         {
             var del = await _context.Carss.FindAsync(id);
             _context.Carss.Remove(del);
-            return Ok(del);
+            await _context.SaveChangesAsync();
+            return Ok("Deleted");
         }
 
     }

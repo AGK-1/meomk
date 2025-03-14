@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sqli-samko")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10c35d9c8254b387fbc239216ec13ab4a4aa8d22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e09f117a7ab8b2bc23a2a9feb8eaa86af472bdb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("sqli-samko")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sqli-samko")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
