@@ -49,6 +49,14 @@ namespace sqli_samko.Controllers
             return Ok(exiciting);
         }
 
+        [HttpDelete]
+        public async Task<ActionResult<Cars>> DeleteCar(int id)
+        {
+            var del = await _context.Carss.FindAsync(id);
+            _context.Carss.Remove(del);
+            return Ok(del);
+        }
+
     }
 
 
