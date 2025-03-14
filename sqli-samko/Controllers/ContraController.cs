@@ -38,7 +38,7 @@ namespace sqli_samko.Controllers
         public async Task<ActionResult<Cars>> UpdateCar(int id, Cars updated)
         {
             var exiciting =  await _context.Carss.FindAsync(id);
-            if (exiciting != null)
+            if (exiciting == null)
             {
                 return NotFound("Nothing found");
             }
